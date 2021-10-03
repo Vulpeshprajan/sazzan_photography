@@ -1,0 +1,17 @@
+.projects {
+  background: linear-gradient(to top, rgb(11, 19, 36), rgba(66, 67, 148, 1));
+  min-height: 100vh;
+  color: white;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.projects :hover {
+  transform: scale(1.2) !important;
+}

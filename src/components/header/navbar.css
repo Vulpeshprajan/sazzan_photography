@@ -1,0 +1,24 @@
+.navlists a:hover {
+  color: rgb(214, 202, 38) !important;
+  transform: scale(1.1) !important;
+}
+
+span.navbar-toggler-icon {
+  color: white !important;
+}
+
+.toggler {
+  color: white !important;
+}
+
+.navlists a {
+  font-size: 1.7rem;
+  color: white !important;
+  font-weight: 300;
+}
+
+.navlists {
+  width: 100%;
+  height: auto;
+  transition: 0.4s !important;
+}

@@ -1,0 +1,138 @@
+.about-description {
+   font-size: 1.5rem;
+   max-width: 70ch;
+   color: rgb(175, 175, 175);
+   padding: 3rem 2rem 3rem 3rem;
+}
+
+.pro-img {
+   margin-top: -3rem;
+}
+
+.about {
+   background: linear-gradient(to top, rgb(11, 19, 36), rgba(66, 67, 148, 1));
+   min-height: 850px;
+}
+
+/********* timeline ***********/
+.wrapper {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 100px 0;
+}
+
+.timeline {
+   width: 90%;
+   padding: 20px;
+   max-width: 800px;
+   margin: 0 auto;
+   position: relative;
+}
+
+.timeline ul {
+   list-style: none;
+}
+
+.timeline ul li {
+   padding: 20px;
+   background-color: rgb(108, 108, 157);
+   color: black;
+   border-radius: 20px;
+   margin-bottom: 20px;
+}
+
+.timeline ul li:last-child {
+   margin-bottom: 0;
+}
+
+.timeline-content {
+   font-size: 20px;
+   font-weight: 500;
+   line-height: 30px;
+   margin-bottom: 10px;
+}
+
+.timeline-content p {
+   font-size: 16px;
+   line-height: 30px;
+   font-weight: 300;
+}
+
+.timeline-content .date {
+   font-size: 18px;
+   font-weight: 300;
+   margin-bottom: 10px;
+   letter-spacing: 2px;
+}
+
+.timeline-content .headings {
+   font-size: 30px;
+   font-weight: 400;
+}
+.timeline-header {
+   color: white;
+   text-align: center;
+   text-decoration: underline;
+}
+
+.timeline-header:hover {
+   color: rgb(214, 202, 38);
+}
+@media only screen and (min-width: 768px) {
+   .timeline::before {
+      content: '';
+      position: absolute;
+      height: 100%;
+      width: 2px;
+      left: 50%;
+      transform: translate(-50%);
+      background-color: rgb(214, 202, 38);
+   }
+   .timeline ul li {
+      width: 50%;
+      margin-bottom: 50px;
+      position: relative;
+   }
+
+   .timeline ul li:nth-child(odd) {
+      float: left;
+      clear: right;
+      transform: translateX(-37px);
+      border-radius: 20px 0px 20px 20px;
+   }
+   .timeline ul li:nth-child(even) {
+      float: right;
+      clear: left;
+      border-radius: 0px 20px 20px 20px;
+   }
+
+   .timeline ul li::after {
+      content: '';
+      position: absolute;
+      height: 20px;
+      width: 20px;
+      background-color: rgb(214, 202, 38);
+      border-radius: 50%;
+      top: 0;
+   }
+   .timeline ul li:nth-child(odd)::after {
+      transform: translate(50%, -50%);
+      right: -20px;
+   }
+   .timeline ul li:nth-child(even)::after {
+      transform: translate(-50%, -50%);
+      left: -17px;
+   }
+
+   .timeline ul li:hover:after {
+      background-color: aqua;
+   }
+
+   .timeline-content .date {
+      position: absolute;
+      top: -30px;
+      color: rgb(214, 202, 38);
+   }
+}

@@ -1,0 +1,41 @@
+.skills-list > div {
+   margin: 2rem;
+   font-weight: bold;
+}
+
+.skillslists i {
+   font-size: 3.5rem;
+}
+
+.Skills {
+   background: linear-gradient(to top, rgb(11, 19, 36), rgba(66, 67, 148, 1));
+   min-height: 100vh;
+}
+
+.card {
+   width: 270px;
+   height: 140px;
+   border-radius: 20px !important;
+   background: rgb(26, 40, 66) !important;
+   transition: transform 0.4s;
+}
+
+.card:hover {
+   transform: scale(1.2) !important;
+   background: rgb(38, 57, 87) !important;
+   border-color: yellow !important;
+}
+
+.cardTitle {
+   text-align: center;
+}
+
+.cardSubTitle {
+   text-align: center;
+   font-weight: 600;
+}
+
+.cardText {
+   padding: 20px;
+   color: rgba(227, 227, 228, 0.87);
+}

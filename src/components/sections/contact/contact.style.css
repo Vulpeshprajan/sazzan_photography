@@ -1,0 +1,46 @@
+.contact {
+   background: linear-gradient(to top, rgb(11, 19, 36), rgba(66, 67, 148, 1));
+   min-height: 850px;
+}
+
+.ContactLists {
+   display: flex;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+}
+
+.ContactLists a {
+   color: white;
+   text-decoration: none;
+}
+.ContactLists a:hover {
+   color: rgb(214, 202, 38);
+}
+
+.ContactLists i {
+   font-size: 2rem;
+}
+
+.handlers {
+   margin-left: 0.6rem;
+   font-size: 1.5rem;
+}
+
+.form-title {
+   color: rgb(214, 202, 38);
+}
+
+#contact-form {
+   max-width: 65%;
+   border: 2px solid rgb(214, 202, 38);
+   padding: 30px;
+   margin-left: auto;
+   margin-right: auto;
+}
+.textheader {
+   font-size: 30px;
+   color: rgb(209, 235, 198);
+   font-family: 'Trebuchet';
+   text-align: center;
+   font-weight: 600;
+}
